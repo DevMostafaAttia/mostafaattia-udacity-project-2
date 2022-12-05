@@ -1,1 +1,1 @@
-http://mostafaattiaproject2-env.eba-bmwpydrp.us-east-1.elasticbeanstalk.com/
+http://mostafaattia-project-2-dev.us-east-1.elasticbeanstalk.com/
