@@ -1,0 +1,18 @@
+{
+	"info": {
+		"_postman_id": "3a6297d3-42f6-4e61-8d1e-e31f91f7ebd3",
+		"name": "Udacity-project-2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "607854"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
