@@ -10,7 +10,24 @@
 			"name": "New Request",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "http://mostafaattiaproject2-env.eba-bmwpydrp.us-east-1.elasticbeanstalk.com?image_url=test",
+					"protocol": "http",
+					"host": [
+						"mostafaattiaproject2-env",
+						"eba-bmwpydrp",
+						"us-east-1",
+						"elasticbeanstalk",
+						"com"
+					],
+					"query": [
+						{
+							"key": "image_url",
+							"value": "test"
+						}
+					]
+				}
 			},
 			"response": []
 		}

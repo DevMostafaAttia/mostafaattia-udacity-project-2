@@ -32,16 +32,15 @@ import { filterImageFromURL, deleteLocalFiles } from "./util/util";
 
   // Root Endpoint
   // Displays a simple message to the user
+  // app.get("/", async (req, res) => {
+  //   res.send("try GET /filteredimage?image_url={{}}");
+  // });
+
   app.get("/", async (req, res) => {
-    res.send("try GET /filteredimage?image_url={{}}");
-  });
-
-  app.get("/filteredimage", async (req, res) => {
     let image = req.query.image_url;
-    if(!image)
-    return res.status(400).send("image url is required!");
-
-    res.status(200).send("hello "+ image);
+    if (!image) return res.status(400).send("image url is required!");
+    let img = filterImageFromURL(image);
+    res.status(200).send(img);
   });
 
   // Start the Server
